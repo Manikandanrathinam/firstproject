@@ -7,5 +7,4 @@ import com.product.Entity.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Integer> {
 
-
 }

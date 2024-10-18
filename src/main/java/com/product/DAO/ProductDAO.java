@@ -14,7 +14,7 @@ public class ProductDAO {
 ProductRepository pr;
 	public String postObj(List<Product> p) {
 		 pr.saveAll(p);
-		 return "Successfully";
+		 return "Successfully added";
 	}
 	public List<Product> findObj() {
 		return pr.findAll();
